@@ -1,10 +1,14 @@
-import { useState } from 'react'
 import './App.css'
-import Message from './Message';
+
+import Title from './components/Title';
+import Form from './components/Form';
 
 function App() {
   return (
-      <Message></Message>
+    <>
+      <Title />
+      <Form />
+    </>
   )
 }
 
